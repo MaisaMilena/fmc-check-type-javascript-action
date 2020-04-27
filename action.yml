@@ -1,0 +1,13 @@
+name: 'Check type'
+description: 'Check the output of fmc for checking terms'
+inputs:
+  terms:  # id of input
+    description: 'output after running a type check with "fmc"'
+    required: true
+    default: 'none'
+outputs:
+  checked: # id of output
+    description: 'The result of checking terms'
+runs:
+  using: 'node12'
+  main: 'index.js'
