@@ -1,0 +1,1 @@
+# fmc-check-type-javascript-action
